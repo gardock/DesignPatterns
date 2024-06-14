@@ -1,0 +1,17 @@
+﻿using AbstractFactory.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AbstractFactory.ConcreteImplementation
+{
+    public class RomanMelee : IUnit
+    {
+        public void Move()
+        {
+            Console.WriteLine("Roman melee unit moved");
+        }
+    }
+}
